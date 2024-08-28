@@ -1,0 +1,36 @@
+{
+  "name": "picturesyncersignalr",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development --watch",
+    "release": "webpack --mode=production",
+    "publish": "npm run release && dotnet publish -c Release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "4.0.0",
+    "css-loader": "7.1.1",
+    "html-webpack-plugin": "5.6.0",
+    "mini-css-extract-plugin": "2.9.0",
+    "ts-loader": "9.5.1",
+    "typescript": "5.4.5",
+    "webpack": "5.91.0",
+    "webpack-cli": "5.1.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@angular/core": "^18.0.2",
+    "@microsoft/signalr": "^8.0.7",
+    "@types/bootstrap": "^5.2.10",
+    "@types/jquery": "^3.5.30",
+    "@types/node": "^20.14.11",
+    "@types/qrcode": "^1.5.5",
+    "bootstrap": "^5.3.3",
+    "qrcode": "^1.5.3"
+  },
+  "description": ""
+}
